@@ -5,7 +5,7 @@
       Math.floor(2.111) -> 2
       Math.round(2.6) -> 3 
       Math.sqrt(64) -> 8 
-      */
+*/
 
 // 방법 1
 function solution(n) {
