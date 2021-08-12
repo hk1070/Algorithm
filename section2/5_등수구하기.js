@@ -1,3 +1,5 @@
+// 참조: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
 function solution(arr) {
   let n = arr.length;
   let answer = Array.from({ length: n }, () => 1);
