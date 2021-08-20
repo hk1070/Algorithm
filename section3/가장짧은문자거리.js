@@ -1,6 +1,7 @@
 function solution(s, t) {
   let answer = [];
   let p = 1000;
+  // 왼쪽에서 오른쪽으로
   for (let x of s) {
     if (x === t) {
       p = 0;
@@ -10,6 +11,7 @@ function solution(s, t) {
       answer.push(p);
     }
   }
+  // 오른쪽에서 왼쪽으로
   p = 1000;
   for (let i = s.length - 1; i >= 0; i--) {
     if (s[i] === t) {
