@@ -14,9 +14,8 @@ function solution(s, t) {
   // 오른쪽에서 왼쪽으로
   p = 1000;
   for (let i = s.length - 1; i >= 0; i--) {
-    if (s[i] === t) {
-      p = 0;
-    } else {
+    if (s[i] === t) p = 0;
+    else {
       p++;
       answer[i] = Math.min(answer[i], p);
     }
