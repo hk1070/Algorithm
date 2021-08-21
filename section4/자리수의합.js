@@ -27,7 +27,6 @@ function solution2(n, arr) {
       .toString()
       .split('')
       .reduce((a, b) => a + Number(b), 0);
-    console.log(sum);
     if (sum > max) {
       max = sum;
       answer = x;
