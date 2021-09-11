@@ -1,3 +1,5 @@
+// Brute-Force 완전탐색 알고리즘
+
 function solution(test) {
   let answer = 0;
   m = test.length;
@@ -25,3 +27,5 @@ let arr = [
   [3, 1, 4, 2],
 ];
 console.log(solution(arr));
+
+// 참조 : https://hcr3066.tistory.com/26
